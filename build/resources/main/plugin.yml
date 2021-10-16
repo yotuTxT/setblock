@@ -1,0 +1,11 @@
+name: setblock
+main: com.yotu.Main
+version: 1.0.0
+api-version: listOf("1.0.13")
+commands:
+  setblock:
+    description: "足元にブロックを設置します"
+    permission: oponly
+permissions:
+  oponly:
+    default: "op"
